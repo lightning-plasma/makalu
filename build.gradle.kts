@@ -55,7 +55,7 @@ protobuf {
 
 	plugins {
 		id("grpc") {
-			artifact = "io.grpc:protoc-gen-grpc-java:1.42.1"
+			artifact = "io.grpc:protoc-gen-grpc-java:1.43.1"
 		}
 
 		id("grpckt") {
