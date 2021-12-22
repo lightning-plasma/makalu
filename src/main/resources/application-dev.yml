@@ -1,0 +1,11 @@
+# logging
+logging:
+  level:
+    com:
+      archetype:
+        makalu: DEBUG
+
+# debug
+grpc:
+  enableReflection: true
+

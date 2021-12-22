@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.archetype.makalu.proto.hike";
+option java_outer_classname = "MakaluProto";
+
+package hike;
+
+service MountainService {
+  rpc GetMountainDetail (MountainRequest) returns (MountainResponse) {}
+}
+
+message MountainRequest {
+  string name = 1;
+}
+
+message MountainResponse {
+  string name = 1;
+  string country = 2;
+  string mountain_system = 3;
+  HighestPoint highest_point = 4;
+}
+
+message HighestPoint {
+  string elevation = 1;
+  string prominence = 2;
+  string isolation = 3;
+  repeated string listing = 4;
+  string coordinates = 5;
+}

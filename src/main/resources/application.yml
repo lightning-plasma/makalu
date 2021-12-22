@@ -1,0 +1,17 @@
+# logging
+logging:
+  level:
+    com:
+      archetype:
+        makalu: INFO
+    io:
+      grpc: DEBUG
+      netty: DEBUG
+
+# grpc
+grpc:
+  shutdown-grace: 20
+  netty-server:
+    permit-keep-alive-time: 5s
+    permit-keep-alive-without-calls: true
+    max-connection-idle: 15m
