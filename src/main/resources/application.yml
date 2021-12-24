@@ -1,9 +1,6 @@
 # logging
 logging:
   level:
-    com:
-      archetype:
-        makalu: INFO
     io:
       grpc: DEBUG
       netty: DEBUG

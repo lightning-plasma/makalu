@@ -1,4 +1,4 @@
-# Makalu
+# ⛰️ Makalu ⛰️
 
 Spring Boot × gRPC kotlin Server Mock Application
 
