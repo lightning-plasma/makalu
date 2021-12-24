@@ -14,7 +14,7 @@ class MountainService : MountainServiceGrpcKt.MountainServiceCoroutineImplBase()
     override suspend fun getMountainDetail(request: MountainRequest): MountainResponse {
         // delay random
         val sleep = Random(System.currentTimeMillis()).nextLong(50, 200)
-        logger.debug("sleep: $sleep millseconds")
+        logger.debug("sleep: $sleep milliseconds")
         delay(sleep)
 
         // mock. return own information
