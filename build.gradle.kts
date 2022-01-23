@@ -28,7 +28,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
-	implementation("io.github.lognet:grpc-spring-boot-starter:4.5.10")
+	implementation("io.github.lognet:grpc-spring-boot-starter:4.6.0")
 	implementation("io.grpc:grpc-kotlin-stub:1.2.0")
 	implementation("com.google.protobuf:protobuf-java-util:3.19.1")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
