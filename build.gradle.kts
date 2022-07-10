@@ -11,7 +11,7 @@ plugins {
 	id("com.google.protobuf") version "0.8.18"
 	id("idea")
 	kotlin("jvm") version "1.6.10"
-	kotlin("plugin.spring") version "1.6.10"
+	kotlin("plugin.spring") version "1.7.10"
 }
 
 group = "com.archetype"
