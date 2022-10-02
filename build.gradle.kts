@@ -51,7 +51,7 @@ tasks.withType<Test> {
 
 protobuf {
 	protoc {
-		artifact = "com.google.protobuf:protoc:3.19.1"
+		artifact = "com.google.protobuf:protoc:3.21.7"
 	}
 
 	plugins {
