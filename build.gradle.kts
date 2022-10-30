@@ -32,7 +32,7 @@ dependencies {
 	implementation("io.grpc:grpc-kotlin-stub:1.2.0")
 	implementation("com.google.protobuf:protobuf-java-util:3.19.1")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
-	implementation("io.github.microutils:kotlin-logging:2.1.21")
+	implementation("io.github.microutils:kotlin-logging:3.0.3")
 	implementation("io.projectreactor.tools:blockhound:1.0.6.RELEASE")
 	runtimeOnly("org.jetbrains.kotlinx:kotlinx-coroutines-debug")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
